@@ -4,3 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+
+img {
+  animation: flip 0.3s forwards;
+  margin: 1em;
+}
+
+@keyframes flip {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
